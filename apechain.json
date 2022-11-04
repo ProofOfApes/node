@@ -1,0 +1,45 @@
+{
+    "name": "proofofapes",
+    "genesis": {
+        "nonce": "0x0000000000000000",
+        "timestamp": "0x0",
+        "extraData": "0x0000000000000000000000000000000000000000000000000000000000000000f90127f90120f846946b0860f98e1919ec7ee75e4cb9529569f19bd87cb0a0b4d17e04f739c6005124a48de7020b283ae88c108c9bbbab0d7d8026be0fc49eb2b5a7b5deec8b30e0d8d35493f286f84694e87243166e2b47f7cd31ba3053c45ffd2fc35e68b0b62c54dd679d5bbb25cfeda3e2db414eeaaf33dcf424ae2d3dd335d00cc2b47eafe5e27f307e89b095083395a466a245f846943fe6041963a3a1367e610922d7f8e997f61aea8ab08c03060a7ded1601edd9f88f16d9cfc169d80d528dfdf8414832b28d136d003cf4af65c546564aad17899eea44cab33ef84694127d8bc592c0e58a26ce35e5a348b6d8783e5c6fb0a0d37e0fd62b116b3a217c6550cab47d432be8709fcf564416a41ccc72c7f6bb45b948994a484ab6e0dc29906ebcbdce80c28080",
+        "gasLimit": "0x3b9aca00",
+        "difficulty": "0x1",
+        "mixHash": "0x0000000000000000000000000000000000000000000000000000000000000000",
+        "coinbase": "0x0000000000000000000000000000000000000000",
+        "alloc": {
+            "0x86aff9665101d510Fc4455E1b45C716C3d9370e5": {
+                "balance": "0xc9f2c9cd04674edea40000000"
+            }
+        },
+        "number": "0x0",
+        "gasUsed": "0x70000",
+        "parentHash": "0x0000000000000000000000000000000000000000000000000000000000000000"
+    },
+    "params": {
+        "forks": {
+            "homestead": 0,
+            "byzantium": 0,
+            "constantinople": 0,
+            "petersburg": 0,
+            "istanbul": 0,
+            "EIP150": 0,
+            "EIP158": 0,
+            "EIP155": 0
+        },
+        "chainID": 493,
+        "engine": {
+            "ibft": {
+                "epochSize": 100000,
+                "type": "PoA",
+                "validator_type": "bls"
+            }
+        },
+        "blockGasTarget": 0
+    },
+    "bootnodes": [
+        "/ip4/114.134.14.140/tcp/493/p2p/16Uiu2HAmRh8Cw1mnZuqyibnDhPpzXZk6bE1HKT72z467vfeZTHmw",
+        "/ip4/114.134.14.143/tcp/493/p2p/16Uiu2HAmExomPmivfYUe8LqpQSvW1fmbsTZ9MbtjG1YzvsVfgh4H"
+    ]
+}
